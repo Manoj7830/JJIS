@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeevan Jyoti International School (Hodal)</title>
+    <style>
+        body {
+            font-family: Cambria, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #d32f2f;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .about-school {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .about-school h2 {
+            color: #1e88e5;
+        }
+        .principal-message, .chairman-message {
+            margin: 30px 0;
+        }
+        .principal-message img, .chairman-message img {
+            float: left;
+            margin-right: 20px;
+            border: 2px solid green;
+        }
+        .principal-message, .chairman-message {
+            clear: both;
+            overflow: auto;
+        }
+        .principal-message h3, .chairman-message h3 {
+            color: green;
+        }
+        .chairman-message h3 {
+            color: #d32f2f;
+        }
+        form {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+        input[type="text"], input[type="email"], input[type="date"], select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            grid-column: span 2;
+            padding: 10px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #4cae4c;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info a {
+            color: #1e88e5;
+            text-decoration: none;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 18px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <img src="logo.jpg" alt="School Logo" height="140" width="150" style="border: 2px dashed green;">
+    </center>
+    <h1> <font size = "7">JEEVAN JYOTI INTERNATIONAL SCHOOL (HODAL)</font></h1>
+    <p style="text-align: center;">This is near by Behra patti and it have many facilities and it is good choice to other schools</p>
+
+    <div class="about-school">
+        <h2>About our school</h2>
+        <h3>"Whatever the mind can conceive and believe, it can be achieved it can be achieved"</h3>
+        <p>Education is an on-going process which encourages and enthuses us to explore into the galaxy of dream and vision. Jeevan Jyoti International School is a progressive, Co-educational, English Medium Institution situated in a pollution-free, eco-friendly environment, sprawling over two acres of land with state-of-art infrastructure for perfect grooming of the children.</p>
+    </div>
+
+    <div class="container">
+        <div class="principal-message">
+            <img src="C:/Users/lenovo/Desktop/Web/Principal.jpeg" alt="Principal" width="150">
+            <h3>Principal message</h3>
+            <p>Today Jeevan Jyoti International School stands as a pinnacle among the institutions of Hodal. This has been possible due to persistent hard work and sincere efforts of JJIS Fraternity. As the Principal of the school, my heart swells with pride when I see my students going back home with laurels. The students of Jeevan Jyoti International School have added yet another feather in the crown of the school with their marvelous performance in Board Result (2023-24). I congratulate all the parents and students and thank them for believing in us.</p>
+        </div>
+
+        <div class="chairman-message">
+            <img src="C:/Users/lenovo/Desktop/Web/chairman.jpg" alt="Chairman" width="150">
+            <h3>Chairman message</h3>
+            <p>Jeevan Jyoti International School, came into existence by a noted Mr. Birpal Singh, who firmly believes that Indian students who are the future of the country have much more potential than what is being seen by the world. Keeping this in mind, he thought of contributing to the cause and getting students groomed in a different way, recognizing talent in students and enhancing it in a way that every student is able to convert his dreams to realities.</p>
+        </div>
+
+        <div class="contact-info">
+            <p>Join our new session</p>
+            <p>Call To Enrol Your Child</p>
+            <p><a href="tel:+917830928876">+91 7830928876</a></p>
+            <p><a href="#">Visit our school digitally</a></p>
+        </div>
+
+        <h2>Instructor Registration</h2>
+        <p>Home // Instructor Registration</p>
+
+        <form>
+            <div>
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div>
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div>
+                <label for="birthDate">Birth Date *</label>
+                <input type="date" id="birthDate" name="birthDate" required>
+            </div>
+            <div>
+                <label for="gender">Gender *</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="email">Email Id *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="phone">Phone No *</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <div>
+                <label for="adhar">Aadhar Card No *</label>
+                <input type="text" id="adhar" name="adhar" required>
+            </div>
+            <div>
+                <label for="pan">PAN Card No *</label>
+                <input type="text" id="pan" name="pan" required>
+            </div>
+            <div>
+                <label for="qualification">Academic/Professional Qualification *</label>
+                <input type="text" id="qualification" name="qualification" required>
+            </div>
+            <div>
+                <label for="position">Position *</label>
+                <select id="position" name="position" required>
+                    <option value="" disabled selected>Choose...</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="assistant_professor">Assistant Professor</option>
+                    <option value="lecturer">Lecturer</option>
+                </select>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+    <div class="footer">
+        <p>Thank you for visiting our school web page!</p>
+    </div>
+</body>
+</html>
+<footer style="background-color: #222; color: white; padding: 40px 0; text-align: center;">
+    <div class="footer-content">
+        <div style="display: inline-block;">
+            <img src="LOGO.jpg" alt="Jeevan Jyoti International School Logo" style="width: 150px; border-radius: 20%;">
+        </div>
+        <h2 style="color: red; margin-top: 10px;">JEEVAN JYOTI INTERNATIONAL SCHOOL (HODAL)</h2>
+        <p>This is near by Behra patti and it have many facilities and it is good choice to other schools</p>
+
+         
+<div class="social-icons">
+<a href="https://www.facebook.com" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" style="width: 40px; margin: 0 10px;">
+
+    <a href="https://www.instagram.com" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 40px; margin: 0 10px;">
+    </a>
+    <a href="https://www.pinterest.com" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="Pinterest" style="width: 40px; margin: 0 10px;">
+    </a>
+    <a href="https://www.youtube.com" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" style="width: 40px; margin: 0 10px;">
+    </a>
+    <a href="https://wa.me/your-number" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 40px; margin: 0 10px;">
+    </a>
+</div>
+
+
+
+        <!-- Links Sections -->
+        <div class="footer-links" style="display: flex; justify-content: space-around; padding: 20px;">
+            <div>
+                <h3>ADMISSION</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: white; text-decoration: none;">Admission Process</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Documents Required</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Admission Form</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Fee Structure</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Awards & Scholarship</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>ACADEMICS</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: white; text-decoration: none;">Academic Calendar</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Result</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Holiday Homework</a></li>
+                    <li><a href="#" style="color: white; text-decoration: none;">Students List</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>WHY CHOOSE JJIS</h3>
+                <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; width: 160px;">
+    <li style="flex: 1 1 33%; text-align: center;"><img src="C:\Users\lenovo\Desktop\Web/Safety.jpg" alt="Safety" style="width: 40px;"></li>
+    <li style="flex: 1 1 33%; text-align: center;"><img src="C:\Users\lenovo\Desktop\Web/sports.jpg" alt="Sports" style="width: 40px;"></li>
+    <li style="flex: 1 1 33%; text-align: center;"><img src="C:\Users\lenovo\Desktop\Web/lab.jpg" alt="Labs" style="width: 40px;"></li>
+    <li style="flex: 1 1 33%; text-align: center;"><img src="C:\Users\lenovo\Desktop\Web/Transportation Service.jpg" alt="Transport" style="width: 40px;"></li>
+    <li style="flex: 1 1 33%; text-align: center;"><img src="C:\Users\lenovo\Desktop\Web/Academics.jpg" alt="Library" style="width: 40px;"></li>
+</ul>
+
+
+
+            </div>
+        </div>
+
+        <hr style="border-color: white;">
+
+        <p>&copy; 2024 Jeevan Jyoti International School | Website Design & Published by <a href="https://happytewatia.com" style="color: lightgreen;">Happy Tewatia</a></p>
+    </div>
+</footer>
+
